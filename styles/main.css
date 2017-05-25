@@ -1,0 +1,84 @@
+html, body {
+  margin:0;
+  padding:0;
+  display: flex;
+  justify-content: center;
+}
+
+.display {
+  margin: 100px;
+}
+
+.table {
+  display: table;
+  width: 100%;
+}
+
+.row {
+  display: table;
+  height: 45px;
+}
+
+.top-row {
+  border-bottom: 3px solid black;
+}
+
+.bottom-row {
+  border-top: 3px solid black;
+}
+
+.cell {
+  display: table-cell;
+}
+
+.left-column {
+  border-right: 3px solid black;
+}
+
+.right-column {
+  border-left: 3px solid black;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
+}
+
+.ex {
+  height: 45px;
+  width: 45px;
+  background-size: 45px 45px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/ex.png");
+}
+
+.oh {
+  height: 45px;
+  width: 45px;
+  background-size: 45px 45px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/oh.png");
+}
+
+.winner {
+  background-color: yellow;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  height: 65px;
+  margin-top: 20px;
+  min-width: 65px;
+}
+
+button {
+  font-family: Comic Sans MS, cursive;
+  font-size: 15px;
+}
+
